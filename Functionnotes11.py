@@ -11,7 +11,7 @@ rect_area()
 rect_area()
 """
 # function for loop
-
+"""
 def rect_area():
 	length=int(input("Enter length:"))
 	Breath=int(input("Enter Breath:"))
@@ -20,7 +20,7 @@ def rect_area():
 for i in range(4):
 	rect_area()
 		
-
+"""
 #factorial in function
 """
 def factorial(x):
@@ -37,6 +37,8 @@ for i in range(4):
 	print("factorial of {} is {} ".format(choice,factorial_value))
 """
 
+#Average Dificult &  
+
 def average(x,y,z):
 	avg=(x+y+z)/3
 	return avg
@@ -47,3 +49,13 @@ d=average(a,b,c)
 print(a,b,c,d)
 
 
+#Average All value function
+"""
+choice=int(input("Enter no. of term:"))
+sum=0
+for i in range(choice):
+	value=int(input("Enter value:"))
+	sum=sum+value
+Average=sum/choice
+print("Average",Average)
+"""

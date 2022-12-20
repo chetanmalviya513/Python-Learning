@@ -14,7 +14,7 @@ def student_marks():
 for i in range(5):
 	student_marks()
 """
-
+"""
 def student_Average():
 	class_1=input("total student ")
 	class_2=input("total student ")
@@ -28,8 +28,15 @@ def student_Average():
 	print("Average of student =",Average)
 for i in range(3):
 	student_Average()
-
-
+"""
+#Average 
+choice=int(input("Enter Number of item:"))
+sum=0
+for i in range (choice):
+	value=int(input("Enter value:"))
+	sum=sum+value
+Average=sum/choice
+print("Average",Average)
 
 
 
