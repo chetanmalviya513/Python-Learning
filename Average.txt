@@ -1,0 +1,8 @@
+405060405040195.0190.0Sub marks are
+ English: 70
+ Hindi: 80
+ maths: 90
+Sub marks are
+ English: 70
+ Hindi: 80
+ maths: 90

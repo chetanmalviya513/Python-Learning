@@ -34,7 +34,7 @@ def typecheck(x):
 	for i in x:
 		if i in num_chr:
 			num_count+=1
-		elif i ==".":
+		elif i ==".":+-
 			dot_count+=1
 		else:
 			other_count+=1
