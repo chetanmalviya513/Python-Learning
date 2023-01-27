@@ -5,6 +5,7 @@ def calculator():
 
 	if operator=="+":
 		print(num_1+num_2)
+		 
 	elif operator=="-":
 		print(num_1-num_2)
 	elif operator=="*":
@@ -14,8 +15,7 @@ def calculator():
 	else:
 		print("invalid operator")
 
-for i in range(4):
-	calculator()
+calculator()
 
 
 

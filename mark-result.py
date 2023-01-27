@@ -13,7 +13,7 @@ marks.close()
 data_file = open("marks1.txt","r")
 data = data_file.read()
 print(data)
-record=data.split(",")
+record = data.split(",")
 print(record)
 total = 0 
 for i in range(1,len(record)):
@@ -23,7 +23,7 @@ print(total,average)
 data_file.close()
 
 #step 3 : writing data in results.txt 
-file = open("newresults.txt","w")
+file = open("results.txt","w")
 record.append(str(total))
 record.append(str(average))
 print(record)

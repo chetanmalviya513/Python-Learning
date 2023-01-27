@@ -36,14 +36,3 @@ for i in range(4):
 	factorial_value=factorial(choice)
 	print("factorial of {} is {} ".format(choice,factorial_value))
 """
-
-def average(x,y,z):
-	avg=(x+y+z)/3
-	return avg
-a=int(input("Enter first:"))
-b=int(input("Enter second:"))
-c=int(input("Enter third:"))
-d=average(a,b,c)
-print(a,b,c,d)
-
-

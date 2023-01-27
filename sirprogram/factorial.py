@@ -7,3 +7,14 @@ else:
 		fact = fact*j
 	print("{} is factorial of {}". format(fact,i))
 
+
+
+
+
+
+
+
+
+
+
+

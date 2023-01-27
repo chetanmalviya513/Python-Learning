@@ -6,4 +6,15 @@ else:
 	for j in range(1,i+1):
 		fact = fact*j
 	print("{} is factorial of {}". format(fact,i))
+  
+
+
+
+
+
+
+
+
+
+
 
